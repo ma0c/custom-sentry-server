@@ -21,7 +21,7 @@ SLACK_HOOK_URL="put here your slack url hook" python server.py
 On other terminal
 
 ```bash
-python error.py
+DOMAIN="localhost:5000" python error.py
 ```
 
 An error should appear in your slack
